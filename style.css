@@ -1,0 +1,41 @@
+
+.gray-block {
+    background-color: lightgray;
+    height: 250px;
+    width: 375px;
+    margin: auto;
+    padding: 5px;
+}
+.name-tag {
+    display: block;
+    background-color: red;
+    height: 100%;
+    margin: auto;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+}
+.hello {
+    display:block;
+    height: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.my-Name-is {
+    height: 75px; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name {
+    background-color: white;
+    margin: auto;   
+    font-family:cursive;
+    font-size: 35px;
+    color: black;   
+}
