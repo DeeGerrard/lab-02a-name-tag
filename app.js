@@ -20,5 +20,11 @@ const blueButton = document.getElementById('blue-button');
 const nameTag = document.getElementById('name-tag');
 //2. add listeners for events we care about
 pinkButton.addEventListener('click', () => {
-//3. do the action
-
+nameTag.style.background = 'pink';
+});
+greenButton.addEventListener('click', () => {
+nameTag.style.background = 'lightgreen';
+});
+blueButton.addEventListener('click', () => {
+nameTag.style.background = 'lightblue';
+});
