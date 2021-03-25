@@ -8,7 +8,7 @@
 }
 .name-tag {
     display: block;
-    background-color: red;
+    background: red;
     height: 100%;
     margin: auto;
     border-radius: 25px;
@@ -17,14 +17,12 @@
 }
 .hello {
     display:block;
-    height: 100px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 50px;
     text-transform: uppercase;
 }
 .my-Name-is {
-    height: 75px; 
     font-family:Arial, Helvetica, sans-serif;
 }
 .centered {
@@ -32,10 +30,25 @@
     align-items: center;
     justify-content: center;
 }
-.name {
+.name-Display {
     background-color: white;
+    height: 150px;
     margin: auto;   
     font-family:cursive;
     font-size: 35px;
     color: black;   
+}
+p {
+       text-align: center;
+}
+.pink {
+    background-color: pink;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.blue {
+    background-color: lightblue;
 }
